@@ -19,7 +19,7 @@ html.dark {
 }
 
 html.dark {
-  background-color: #fff;
+  background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 
@@ -69,6 +69,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
+  transition: all 0.5s ease-out;
 }
 
 .needle.hour {
